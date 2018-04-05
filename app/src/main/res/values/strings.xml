@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">MediaPlayer</string>
+
+    //labels
+    <string name="rockText">Rock</string>
+    <string name="classicText">Classic</string>
+    <string name="jazzText">Jazz</string>
+    <string name="electronicText">Electronic</string>
+    <string name="rockSongText">Rock song</string>
+
+    //description
+    <string name="rockImage">guitar</string>
+    <string name="classicImage">piano</string>
+    <string name="jazzImage">trumpet</string>
+    <string name="electronicImage">synthesizer</string>
+    <string name="cdCover">CD cover</string>
+
+    <string-array name="rockArtists">
+        <item>Pink Floyd</item>
+        <item>REM</item>
+        <item>Peter Gabriel</item>
+        <item>Hey</item>
+        <item>Queen</item>
+    </string-array>
+
+    <string-array name="classicArtists">
+        <item>Antonio Vivaldi</item>
+        <item>Fryderyk Chopin, Krystian Zimerman</item>
+        <item>Wolfgang Amadeus Mozart, Netrebko Anna</item>
+    </string-array>
+
+    <string-array name="jazzArtists">
+        <item>Tomasz Stańko</item>
+        <item>Miles Davis</item>
+        <item>Louis Armstrong</item>
+    </string-array>
+
+    <string-array name="electronicArtists">
+        <item>Vangelis</item>
+        <item>Mike Oldfield</item>
+        <item>Jean-Michel Jarre</item>
+        <item>Ennio Morricone</item>
+    </string-array>
+
+    <string-array name="rockAlbums">
+        <item>The Dark Side of the Moon</item>
+        <item>Automatic for the People</item>
+        <item>So</item>
+        <item>Miłość! Uwaga! Ratunku! Pomocy!</item>
+        <item>Made in Heaven</item>
+    </string-array>
+
+    <string-array name="classicAlbums">
+        <item>The Four Seasons</item>
+        <item>Chopin Recital</item>
+        <item>The Mozart Album</item>
+    </string-array>
+
+    <string-array name="jazzAlbums">
+        <item>Lontano</item>
+        <item>In a Silent Way</item>
+        <item>The Real Ambassadors</item>
+    </string-array>
+
+    <string-array name="electronicAlbums">
+        <item>Soundtracks of Blade Runner</item>
+        <item>Tubular Bells</item>
+        <item>Oxygène</item>
+        <item>Mission</item>
+    </string-array>
+
+
+    <string-array name="rockSong">
+        <item>0_Speak to Me/Breathe</item>
+        <item>0_On the Run Time</item>
+        <item>0_The Great Gig in the Sky</item>
+        <item>0_Money</item>
+        <item>0_Us and Them</item>
+        <item>0_Any Colour You Like</item>
+        <item>0_Brain Damage</item>
+        <item>0_Eclipse</item>
+
+        <item>1_Drive</item>
+        <item>1_Try Not To Breathe</item>
+        <item>1_The Sidewinder Sleeps Tonite</item>
+        <item>1_Everybody Hurts</item>
+        <item>1_New Orleans Instrumental No. 1</item>
+        <item>1_Sweetness Follows</item>
+        <item>1_Monty Got a Raw Deal</item>
+        <item>1_Ignoreland</item>
+        <item>1_Star Me Kitten</item>
+        <item>1_Man on the Moon</item>
+        <item>1_Nightswimming</item>
+        <item>1_Find the River</item>
+
+        <item>2_Red Rain</item>
+        <item>2_Sledgehammer</item>
+        <item>2_Don't Give Up</item>
+        <item>2_That Voice Again</item>
+        <item>2_Mercy Street</item>
+        <item>2_Big Time</item>
+        <item>2_We Do What We're Told (Milgram's 37)</item>
+        <item>2_This Is the Picture (Excellent Birds)</item>
+        <item>2_In Your Eyes</item>
+
+        <item>3_Vanitas</item>
+        <item>3_Umieraj stąd</item>
+        <item>3_Faza delta</item>
+        <item>3_Piersi ćwierć</item>
+        <item>3_Chiński urzędnik państwowy</item>
+        <item>3_Miłość! Uwaga! Ratunku! Pomocy!</item>
+        <item>3_Stygnę</item>
+        <item>3_Boję się o nas</item>
+        <item>3_Kto tam? Kto jest w środku?</item>
+        <item>3_Nie więcej...</item>
+
+        <item>4_It's a Beautiful Day</item>
+        <item>4_Made in Heaven</item>
+        <item>4_Let Me Live</item>
+        <item>4_Mother Love</item>
+        <item>4_My Life Has Been Saved</item>
+        <item>4_I Was Born to Love You</item>
+        <item>4_Heaven for Everyone</item>
+        <item>4_Too Much Love Will Kill You</item>
+        <item>4_You Don't Fool Me</item>
+        <item>4_A Winter's Tale</item>
+        <item>4_It's a Beautiful Day (Reprise)</item>
+        <item>4_Yeah</item>
+    </string-array>
+
+</resources>

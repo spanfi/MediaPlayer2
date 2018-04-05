@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ListItem"
+    tools:context="com.example.android.mediaplayer2.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewCover"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:contentDescription="@string/cdCover"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        style="@style/CategoryStyleTextView">
+
+        <TextView
+            android:id="@+id/artistTextView"
+            style="@style/Artist"
+            tools:text="Artist" />
+
+        <TextView
+            android:id="@+id/albumTextView"
+            style="@style/Album"
+            tools:text="Album" />
+
+    </LinearLayout>
+</LinearLayout>

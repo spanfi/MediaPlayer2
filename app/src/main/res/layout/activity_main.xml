@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        style="@style/CategoryStyleLinearLayout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/rockImage"
+            android:src="@mipmap/quitar" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:id="@+id/rock"
+            style="@style/CategoryStyleTextView"
+            android:text="@string/rockText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/CategoryStyleLinearLayout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/classicImage"
+            android:src="@mipmap/piano" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:id="@+id/classic"
+            style="@style/CategoryStyleTextView"
+            android:text="@string/classicText" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/CategoryStyleLinearLayout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/jazzImage"
+            android:src="@mipmap/trumpet" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:id="@+id/jazz"
+            style="@style/CategoryStyleTextView"
+            android:text="@string/jazzText" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/CategoryStyleLinearLayout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/electronicImage"
+            android:src="@mipmap/synt" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:id="@+id/electronic"
+            style="@style/CategoryStyleTextView"
+            android:text="@string/electronicText" />
+    </LinearLayout>
+
+</LinearLayout>
